@@ -15,7 +15,7 @@ export default function Ingredients() {
                     <div className="pic overflow-clip"><Image src="/image/card-1-1.png" alt="card1-pic" width="550" height="200" /></div>
                     <div className="dis">
                         <h3 className="heading2">Pure HALAL Beef</h3>
-                        <p>McDonald's meat patties are produced from 100% pure halal beef with no additives, preservatives or flavour enhancers. The beef patties are prepared and packaged at McDonald's approved meat plants. In addition to inspections carried out before the beef arrives at the plants, our suppliers undertake several separate quality checks on every batch. All our beef is grilled to perfection, without the addition of fats or oils, on a double sided hotplate, and we make sure that the specified temperature is maintained during the whole 
+                        <p>McDonald&apos;s meat patties are produced from 100% pure halal beef with no additives, preservatives or flavour enhancers. The beef patties are prepared and packaged at McDonald&apos;s approved meat plants. In addition to inspections carried out before the beef arrives at the plants, our suppliers undertake several separate quality checks on every batch. All our beef is grilled to perfection, without the addition of fats or oils, on a double sided hotplate, and we make sure that the specified temperature is maintained during the whole 
                         beef-grilling process to ensure safety while guaranteeing juicy tasty patties.
                         </p>
                     </div>

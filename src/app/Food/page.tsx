@@ -59,7 +59,7 @@ export default function Food() {
                 <div className="div">
                     <div className="pic"><Image src="/image/safe.png" alt="safe-pic" width="550" height="300" /></div>
                     <div className="dis">
-                        <h3 className="heading2">All Safe 'n' Sound</h3>
+                        <h3 className="heading2">All Safe &apos;n&apos; Sound</h3>
                         <p>applied system to keep food safety absolute from point zero till the point it is served to our customers. This ensures the quality from our regional suppliers’ production lines down to the kitchens of our restaurants.
                         </p>
                     </div>
