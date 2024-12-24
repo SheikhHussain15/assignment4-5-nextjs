@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Deal4(){
     return(
         <>    
-        <Header />
+
         <div className="container-one">
                 <div className="container-two">  
                 <div className="container-image">
