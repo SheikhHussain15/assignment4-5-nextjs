@@ -24,7 +24,7 @@ export default function SpecialtiesSlider() {
     return (
         <div className='w-[80%] '>
         <div className="slider-container">
-            <div className="slider" style={{ transform: `translateX(-${currentIndex * 320}px)` }}>
+            <div className="slider" style={{ transform: `translateX(-${currentIndex * 320}px)`}}>
                 {specialties.map((specialty) => (
                     <div className="card" key={specialty.id}>
                         <Image
@@ -120,7 +120,9 @@ export default function SpecialtiesSlider() {
                 .navigation button:hover {
                     background: rgba(0, 0, 0, 0.8);
                 }
-            `}</style>
+            `}
+            
+            </style>
         </div>
     );
 }

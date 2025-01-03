@@ -78,25 +78,19 @@
   margin-top:20px;
 }
 
-.about{
-  display:flex;
-  align-items:center;
-  justify-content:space-around;
-  padding: 120px 0px 120px 0px;
-  background-color:rgb(8, 8, 8);
-  height:100vh;
-}
 
 .food-btn{
   width: 400px;
   height: 310px;
   border: 3px solid black;
+  margin-bottom: 20px;
 }
 
 .ingredients-btn{
   width: 400px;
   height: 310px;
   border: 3px solid black;
+  margin-bottom: 20px;
 }
 
 .know-btn{
@@ -163,8 +157,8 @@
 } 
 
 .div{
-  width:90%;
-  height: auto;
+  width:80%;
+  height: fit-content;
   border:3px solid white;
   border-radius: 5px;
   display:flex;
@@ -203,3 +197,18 @@ h3{
   color:rgba(255, 255, 154, 0.849);
 }
 
+@media (max-width:990px) {
+  .food-btn{
+    margin-bottom:20px ;
+  }
+  .ingredients-btn{
+    margin-bottom:20px ;
+  }
+  .div{
+    flex-direction: column;
+    width: 80%;
+  }
+  .pic{
+    width: 100%;
+  }
+}

@@ -1,3 +1,4 @@
+'use client'
 import Special from "@/components/special";
 import Footer from "@/components/footer";
 import DynamicBackgroundVideos from "@/components/video";

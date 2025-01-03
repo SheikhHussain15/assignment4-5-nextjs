@@ -8,7 +8,7 @@ export default function Food() {
                 <h2 className="heading1">Food Quality</h2>
 
                 <div className="div">
-                    <div className="pic"><Image src="/image/meats.png" alt="meat-pic" width="550" height="300" /></div>
+                    <div className="pic"><Image src="/image/meats.png" alt="meat-pic" width="550" height="100"  /></div>
                     <div className="dis">
                         <h3 className="heading2">Meat 100% Purity</h3>
                         <p>100% purity is the reason why all our beef sandwiches taste so delicious. They are made from halal beef cuts with no additives or preservatives. Chicken that we serve is carefully deboned breast meat only, with seasoned batter and a choice of sauce portions, while our Spicy McCrispy Chicken Deluxe uses only muscle cuts.
