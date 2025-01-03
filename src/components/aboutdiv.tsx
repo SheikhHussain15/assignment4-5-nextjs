@@ -10,7 +10,7 @@ export default function Aboutdiv() {
         </h1>
         <p className="text-sm md:text-base text-slate-400 text-center lg:text-left">
           We welcome you to explore our taste of the world, in continental and 
-          Chinese delights and that's even before you get to the variety and excellence 
+          Chinese delights and that&apos;s even before you get to the variety and excellence 
           of our barbecue grill. With warmth service rarely experienced, it is a 
           perfect place of rejoice with family, to soak in the relaxing decor and with deep 
           desire to revisit for once, in never enough! Now with our network of four branches 

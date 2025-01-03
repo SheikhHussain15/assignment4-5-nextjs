@@ -1,6 +1,7 @@
-'use client'
+'use client';
 import React, { useState } from 'react';
-import Image from 'next/image'
+import Image from 'next/image';
+
 const ImageSlider = () => {
     const slides = [
         { src: '/image/slider1.jpg', alt: 'Burger' },
@@ -9,7 +10,7 @@ const ImageSlider = () => {
         { src: '/image/slider3.jpg', alt: 'Fries' },
     ];
 
-    const [currentIndex, setCurrentIndex] = useState(0);
+    const [currentIndex, setCurrentIndex] = useState<number>(0);
 
     const prevSlide = () => {
         const isFirstSlide = currentIndex === 0;
@@ -21,7 +22,7 @@ const ImageSlider = () => {
         setCurrentIndex(isLastSlide ? 0 : currentIndex + 1);
     };
 
-    const goToSlide = (index:any) => {
+    const goToSlide = (index: number) => {
         setCurrentIndex(index);
     };
 

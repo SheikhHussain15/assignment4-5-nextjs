@@ -11,7 +11,7 @@ export default function Footer() {
           <h4 className="text-amber-500 text-xl lg:text-2xl mb-4">ABOUT US</h4>
           <p className="text-white leading-relaxed text-sm lg:text-base">
             We welcome you to explore our taste of the world, in continental and
-            Chinese delights and that's even before you get to the variety and
+            Chinese delights and that&apos;s even before you get to the variety and
             excellence, of our barbecue grill.
           </p>
           <ul className="mt-6 flex space-x-4">
